@@ -1,0 +1,34 @@
+//Name: Nishka Ranadive
+//PRN: 24070123082
+//Exp-11
+
+//Program-5
+#include<iostream>
+using namespace std;
+
+class Cube{
+    public:
+    float side;
+
+    float vol_in(float side){
+        return side*side*side;
+    }
+
+    float vol_out();
+};
+
+float Cube::vol_out(){
+    return side*side*side;
+}
+
+int main(){
+
+    Cube c1;
+    cout<<"Enter Side dimension of the Cube: ";
+    cin>>c1.side;
+
+    cout<<"Volume of Cube is(by method): "<<c1.vol_in(c1.side)<<endl;
+    cout<<"Volume of Cube is(by function): "<<c1.vol_out()<<endl;
+
+    return 0;
+}
