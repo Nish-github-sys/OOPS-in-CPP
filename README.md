@@ -113,7 +113,7 @@ This program demonstrates class creation and member function definitions in C++.
 4. Stop
 
 
-# Program-6: 
+# Program-6: Cube Volume Calculation with Private Data Member
 
 This program demonstrates the concept of **data members** and **member functions** in C++ classes. A class `Cube` is defined with a private data member `side`, initialized to `5`. It contains a public member function `vol_in()` that calculates and returns the cube’s volume using the formula $\text{side}^3$. In `main()`, an object `c1` of class `Cube` is created. The program then calls `vol_in()` to compute the volume and displays it. It also illustrates data encapsulation, where `side` is private and accessed only through a public method.
 
