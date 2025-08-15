@@ -29,3 +29,10 @@ int main(){
 
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+Enter Length: 4.5
+Enter Width: 5.4
+Area of Rectangle is: 24.3
+*/
