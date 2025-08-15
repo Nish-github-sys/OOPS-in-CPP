@@ -46,3 +46,14 @@ int main(){
 
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+Enter Num-1: 3
+Enter Num-2: 4
+
+Addition: 7
+Subtraction: -1
+Multiplication: 12
+Division: 0.75
+*/
