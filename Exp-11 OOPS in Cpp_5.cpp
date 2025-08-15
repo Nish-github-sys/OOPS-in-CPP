@@ -32,3 +32,10 @@ int main(){
 
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+Enter Side dimension of the Cube: 4
+Volume of Cube is(by method): 64
+Volume of Cube is(by function): 64
+*/
